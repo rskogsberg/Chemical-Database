@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{BE6A3414-4E15-4744-B3B7-1EEB86AC85CB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ChemicalController.cs">
+    <Files>
+      <File FileName="wwwroot/css/site.css" Line="108" Column="1" />
+      <File FileName="Controllers/ChemicalController.cs" Line="120" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChemicalMVCDatabase" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ChemicalMVCDatabase PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

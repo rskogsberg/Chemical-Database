@@ -1,0 +1,40 @@
+@model ChemicalMVCDatabase.Models.Chemical
+
+@{
+  ViewData["Title"] = "Details";
+}
+<h2>Details</h2>
+<div>
+  <h4>Chemicals</h4>
+  <hr />
+  <dl class="dl-horizontal">
+    <dt>
+      @Html.DisplayNameFor(model => model.Chemical_Name)
+    </dt>
+    <dd>
+      @Html.DisplayFor(model => model.Chemical_Name)
+    </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.Molecular_Weight)
+    </dt>
+    <dd>
+      @Html.DisplayFor(model => model.Molecular_Weight)
+    </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.Product_Number)
+    </dt>
+    <dd>
+      @Html.DisplayFor(model => model.Product_Number)
+    </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.Vendor)
+    </dt>
+    <dd>
+      @Html.DisplayFor(model => model.Vendor)
+    </dd>
+  </dl>
+</div>
+<div>
+  <a asp-action="Edit" asp-route-id="@Model.Chemical_ID">Edit</a>
+  <a asp-action="Index">Back to List</a>
+</div>
